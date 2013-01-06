@@ -1,5 +1,8 @@
 Meteor.startup(function () {
 
-//var Messages = new Meteor.Collection("messages");
+	console.log("Removing all players");
+	Players.remove({});
 
+	
+	
 });
