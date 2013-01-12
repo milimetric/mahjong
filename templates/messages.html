@@ -1,0 +1,14 @@
+<template name="log">
+<div>
+  <input type="text" name="input_box" class="input_text">
+  <input type="button" name="first_button" class="append_msg" value="Submit">
+  <input type="button" name="clear_button" class="clear_msg" value="Clear">
+
+  <ol class="message-log">
+    {{#each messages}}
+      <li>{{text}}</li>
+    {{/each}}
+  </ol>
+</div>
+</template>
+
