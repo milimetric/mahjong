@@ -3,15 +3,15 @@
 </head>
 
 <body>
-
-  <div>
-  	{{> log}}
-  </div>
-
-  <div>
-  	{{> log}}
-  </div>
-  
+    {{> loggers}}
 </body>
 
+<template name="loggers">
+    <div>
+        {{> log one}}
+    </div>
 
+    <div>
+        {{> log two}}
+    </div>
+</template>
